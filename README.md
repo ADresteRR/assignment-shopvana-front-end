@@ -25,17 +25,17 @@ npm start
 
 ## ScreenShots
 
-# Homepage displaying all available food/products
+### Homepage displaying all available food/products
 ![HomePage](https://github.com/ADresteRR/assignment-shopvana-front-end/blob/master/screenshot/ss1.png)
 
-# Food Detail page
+### Food Detail page
 ![Food Detail page](https://github.com/ADresteRR/assignment-shopvana-front-end/blob/master/screenshot/ss2.png)
 
-# Cart page
+### Cart page
 ![empty cart page](https://github.com/ADresteRR/assignment-shopvana-front-end/blob/master/screenshot/ss3.png)
 
-# Add to cart button and available options
+### Add to cart button and available options
 ![available options](https://github.com/ADresteRR/assignment-shopvana-front-end/blob/master/screenshot/ss4.png)
 
-# Shopping Cart with added food/items
+### Shopping Cart with added food/items
 ![cart with items](https://github.com/ADresteRR/assignment-shopvana-front-end/blob/master/screenshot/ss5.png)
