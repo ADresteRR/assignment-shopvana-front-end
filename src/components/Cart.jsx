@@ -5,6 +5,7 @@ import { useCart } from '../context/CartContext';
 import DefaultFoodImage from "../images/food.jpg"
 import '../styles/cart.css';
 
+
 const Cart = () => {
     const { tempUserId, getTempUserId, cartItems, getCartItems, removeFromCart } = useCart();
     const [tax, setTax] = useState(0);
@@ -55,7 +56,7 @@ const Cart = () => {
                                 <Card.Body>
                                     <Row>
                                         <Col md={4} className="d-flex align-items-center justify-content-center">
-                                            <Card.Img variant="top" src={item.image || DefaultFoodImage} alt={item.product} className="cart-img" />
+                                            <Card.Img variant="top" src={item.image || DefaultFoodImage} alt={item.product} className="cart-img" onError={(e) => { e.target.onerror = null; e.target.src = defaultFoodImage; }} />
                                         </Col>
                                         <Col md={8}>
                                             <Card.Title className="text-center">{item.product}</Card.Title>
