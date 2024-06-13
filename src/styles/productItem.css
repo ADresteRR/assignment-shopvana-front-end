@@ -1,0 +1,32 @@
+/* src/styles/productItem.css */
+.food-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary, .btn-success {
+    width: 48%;
+    font-weight: bold;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    transform: scale(1.05);
+}
+
+.text-center {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.text-muted {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
