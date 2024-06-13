@@ -56,7 +56,7 @@ const Cart = () => {
                                 <Card.Body>
                                     <Row>
                                         <Col md={4} className="d-flex align-items-center justify-content-center">
-                                            <Card.Img variant="top" src={item.image || DefaultFoodImage} alt={item.product} className="cart-img" onError={(e) => { e.target.onerror = null; e.target.src = defaultFoodImage; }} />
+                                            <Card.Img variant="top" src={item.image || DefaultFoodImage} alt={item.product} className="cart-img" onError={(e) => { e.target.onerror = null; e.target.src = DefaultFoodImage; }} />
                                         </Col>
                                         <Col md={8}>
                                             <Card.Title className="text-center">{item.product}</Card.Title>
