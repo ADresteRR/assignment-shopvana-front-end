@@ -1,6 +1,6 @@
 # Shopvana E-commerce Platform
 
-This is a simple e-food ordering platform. It showcases a basic shopping experience using React for the frontend and a simple backend service using Django.
+This is a simple e-food ordering platform as an assignment from shopvana. Developed using ReactJs for front-end and Django for backend
 
 ## Deployment
 
