@@ -10,7 +10,7 @@ The project is deployed using the free-tier services provided by Render, which i
 
 **[Backend](https://assignment-shopvana-backend-1.onrender.com)**: Shopvana Backend
 
-The API endpoints and their documentation are available in the backend repository.
+The API endpoints and their documentation are available in the backend repository ( **[backend-repo]https://github.com/ADresteRR/assignment-shopvana-backend/tree/master** ).
 
 ## Local Development
 
